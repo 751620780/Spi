@@ -1,0 +1,27 @@
+LIBRARY			Spi
+EXPORTS
+				WSPStartup
+				GetHookProviderDllPath
+				Char8ToUnicode16
+				Unicode16ToChar8
+				WSPAccept
+				WSPConnect
+				WSPCloseSocket
+				WSPSend
+				WSPSendTo
+				WSPRecv
+				WSPRecvFrom
+				CompletionRoutineSend
+				CompletionRoutineRecv
+				WSPGetOverlappedResult
+				WSPCleanup
+				ReinforceSend
+				ReinforceRecv
+				SessionTcp
+				SessionUdp
+				GetExtenedLength
+				AddLogMsg
+				TimerThreadProc
+				GlobThreadProc
+				LogThreadProc
+				LogRecordThreadProc
